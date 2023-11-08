@@ -1,2 +1,1 @@
-# HTML---Head-Charset
-1- Head e seus elementos 
+Pagina Html sobre Head Charset e Symbols
