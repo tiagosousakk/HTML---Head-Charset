@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link type="text/css" rel="stylesheet" href="style.css" />
+
+    <title>Layout com Flexbox</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <img src="Imgs/imghead.png" alt="Minha Imagem" width="600" height="400">
+            <div class="header-text">
+                <h1>HEAD, CHARSET, SYMBOLS E EMOJIS</h1>
+            </div>
+        </div>
+    </header>
+
+    <div style="display: flex;">
+        <main>
+
+            <h1 id="secao1" class="section-title">Qual a utilidade da tag HEAD e quais os elementos HTML que podem ser usados
+                dentro
+                do head da página?</h1>
+
+            <p class="section-content">A tag Head é uma seção importante em um documento HTML que não é visível para os
+                usuários, mas desempenha um papel fundamental na definição de informações de metadados e configurações
+                de uma página. Os
+                elementos dentro da tag ajudam a definir como a página será exibida e interpretada pelos navegadores e
+                motores de busca. Alguns dos elementos HTML que podem ser usados dentro da tag head incluem:
+            </p>
+            <ul>
+                <li>
+                    <"meta">: Usada para fornecer informações sobre o documento, como metadados, conjunto de caracteres,
+                        descrição e palavras-chave.
+                </li>
+                <li>
+                    <"title">: Define o título da página, que é exibido na barra de título do navegador ou na guia da
+                        página.
+                </li>
+                <li>
+                    <"link">: Usado para vincular a folhas de estilo CSS externas.
+                </li>
+                <li>
+                    <"style">: Pode conter estilos CSS embutidos na página.
+                </li>
+                <li>
+                    <"script"> : Pode conter código JavaScript.
+                </li>
+                <li>
+                    <"base">: Define a URL base para links relativos na página.
+                </li>
+            </ul> <br>
+
+            <h1 id="secao2" class="section-title">Tags meta, title e base</h1>
+
+            <ul>
+                <li>
+                    <"meta">: Essa tag é usada para fornecer informações sobre o documento. Um exemplo típico é definir
+                        o
+                        conjunto de caracteres da página, como UTF-8. Exemplo:
+                </li><br>
+                <img src="Imgs/print1.png" alt="Imagem"><br><br>
+
+                <li>
+                    <"title">: Define o título da página que aparece na barra de título do navegador.
+                </li><br>
+                <img src="Imgs/print2.png" alt="Imagem 2"><br><br>
+
+                <li>
+                    <"base">: Define a URL base para links relativos na página. Isso é útil quando você deseja
+                        especificar
+                        uma URL comum para todos os links relativos. Exemplo:
+                </li><br>
+                <img src="Imgs/print3.png" alt="Imagem 3"><br><br>
+
+                <h1 id="secao3" class="section-title">Charset</h1>
+
+                <li>
+                    Charset é uma abreviação de "character set" e se refere ao conjunto de caracteres usado para
+                    codificar um documento de texto. Ele determina quais caracteres podem ser exibidos e
+                    interpretados em uma página da web. A utilidade do charset é garantir que o navegador interprete
+                    e exiba os caracteres da página corretamente.
+                </li>
+
+                <h2 class="section-title">Charset padrão:</h2>
+
+                <li>Se o charset não for definido na página, o navegador geralmente usa o
+                    charset
+                    padrão, que é UTF-8 na
+                    maioria dos casos. No entanto, é uma prática recomendada definir explicitamente o charset para
+                    evitar problemas de exibição de caracteres.</li>
+
+                <h2 class="section-title">Charset padrão:</h2>
+
+                <li>UTF-8: Suporta uma ampla variedade de caracteres e é amplamente utilizado na web para suportar
+                    múltiplos idiomas.</li><br>
+                <img src="Imgs/print4.png" alt=""><br><br>
+
+                <li>ASCII: Um conjunto de caracteres básicos com 128 caracteres.</li><br>
+                <img src="Imgs/print5.png" alt=""><br><br>
+
+                <li>ANSI: Não é um charset específico, mas muitas vezes se refere ao charset padrão do sistema
+                    operacional.</li><br>
+                <img src="Imgs/print6.png" alt=""><br><br>
+
+                <li>ISO-8859-1 (Latin-1): Suporta caracteres acentuados usados em línguas europeias ocidentais.</li><br>
+                <img src="Imgs/print7.png" alt=""><br><br>
+
+                <h1 id="secao4" class="section-title">Uso de Símbolos e Emojis em Páginas Web:</h2>
+
+                    <h2 class="section-title">Usando Entidades HTML para Símbolos:</h2>
+
+                    <li>
+                        Você pode usar entidades HTML para incluir símbolos especiais em sua página da web. Por exemplo,
+                        para adicionar um símbolo de coração ❤, você pode usar a entidade HTML correspondente
+                        "&hearts";:
+                    </li><br>
+
+                    <img src="Imgs/emoj1.png" alt="emoj1"><br><br>
+
+                    <li>
+                        Se você estiver trabalhando em um ambiente que suporta emojis (o que é comum na maioria dos
+                        navegadores e sistemas modernos), você pode incluir emojis diretamente em seu código HTML. Por
+                        exemplo:
+                    </li><br>
+                    <img src="Imgs/emoj2.png" alt="emoj1"><br><br>
+
+                    <li>
+                        Você pode usar bibliotecas de ícones como FontAwesome para adicionar ícones personalizáveis, que
+                        incluem emojis e símbolos. Primeiro, integre a biblioteca ao seu projeto e, em seguida, use as
+                        classes correspondentes aos emojis ou ícones desejados. Por exemplo:
+                    </li><br>
+                    <img src="Imgs/emoj1.png" alt="emoj1"><br><br>
+
+                    <li>Essas classes fazem parte da biblioteca FontAwesome e representam um coração e um rosto
+                        sorridente.</li>
+
+            </ul>
+        </main>
+
+
+        <aside>
+            <h2>Tópicos</h2>
+            <ul>
+                <li>
+                    <a href="#secao1">Tag HEAD e elementos HTML dentro dela</a>
+                </li>
+                <li>
+                    <a href="#secao2">Tags meta, title, e base:</a>
+                </li>
+                <li>
+                    <a href="#secao3">Charset</a>
+                </li>
+                <li>
+                    <a href="#secao4">Uso de símbolos e Emojis</a>
+                </li>
+
+            </ul>
+
+        </aside>
+    </div>
+
+    <footer>
+        <h3></h3>
+    </footer>
+</body>
+
+</html>
